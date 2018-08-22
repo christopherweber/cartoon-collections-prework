@@ -24,7 +24,7 @@ def find_the_cheese(strings)
   #   list.cheese_types?
   # end
   if 
-    strings.include?(cheese_types) = 0
+    strings.include?(cheese_types) == 0
     return "nil"
   end
 end
