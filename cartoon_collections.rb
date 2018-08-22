@@ -7,7 +7,7 @@ end
 def summon_captain_planet(calls)
   arr = []
   calls.each do | command |
-    return arr << command.upcase + "!"
+    arr << command.capitalize + "!"
   end
   arr
 end
