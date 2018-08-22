@@ -20,6 +20,5 @@ end
 
 def find_the_cheese(strings)
   strings.include?(cheese_types)
-  end
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
