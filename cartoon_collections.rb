@@ -8,6 +8,7 @@ def summon_captain_planet(calls)
   arr = []
   calls.each do | command |
     return arr << command.upcase + "!"
+  end
 end
 
 def long_planeteer_calls# code an argument here
